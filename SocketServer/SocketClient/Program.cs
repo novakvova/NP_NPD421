@@ -12,7 +12,8 @@ Console.WriteLine("Вкажіть текст повідомлення");
 string text = Console.ReadLine();
 
 //Це буде localhost
-string ipServer = "127.0.0.1"; //IP-адреса сервера
+//string ipServer = "127.0.0.1"; //IP-адреса сервера
+string ipServer = "18.156.71.30"; //IP-адреса сервера
 client.Connect(ipServer, 1097); //Підключаємося до сервера за IP-адресою та портом
 
 client.Send(System.Text.Encoding.UTF8.GetBytes(text)); //Відправляємо повідомлення на сервер
