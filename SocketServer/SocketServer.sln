@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketClient", "SocketClien
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2_SMTP", "_2_SMTP\_2_SMTP.csproj", "{9174AF1D-343E-4AA8-84C3-6D8709D942B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_3_HttpClient", "_3_HttpClient\_3_HttpClient.csproj", "{A1650829-0638-4CE6-A97C-F2AAFA73B79D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9174AF1D-343E-4AA8-84C3-6D8709D942B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9174AF1D-343E-4AA8-84C3-6D8709D942B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9174AF1D-343E-4AA8-84C3-6D8709D942B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1650829-0638-4CE6-A97C-F2AAFA73B79D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1650829-0638-4CE6-A97C-F2AAFA73B79D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1650829-0638-4CE6-A97C-F2AAFA73B79D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1650829-0638-4CE6-A97C-F2AAFA73B79D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
