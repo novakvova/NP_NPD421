@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2_SMTP", "_2_SMTP\_2_SMTP.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_3_HttpClient", "_3_HttpClient\_3_HttpClient.csproj", "{A1650829-0638-4CE6-A97C-F2AAFA73B79D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_4_SendSMS", "_4_SendSMS\_4_SendSMS.csproj", "{1B7512BD-4D97-4BC1-9544-1AB3C9A3E51E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobizonLib", "MobizonLib\MobizonLib.csproj", "{B93E38AD-1D19-4DE3-9B82-EB0497A61F5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{A1650829-0638-4CE6-A97C-F2AAFA73B79D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1650829-0638-4CE6-A97C-F2AAFA73B79D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1650829-0638-4CE6-A97C-F2AAFA73B79D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B7512BD-4D97-4BC1-9544-1AB3C9A3E51E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B7512BD-4D97-4BC1-9544-1AB3C9A3E51E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B7512BD-4D97-4BC1-9544-1AB3C9A3E51E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B7512BD-4D97-4BC1-9544-1AB3C9A3E51E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B93E38AD-1D19-4DE3-9B82-EB0497A61F5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B93E38AD-1D19-4DE3-9B82-EB0497A61F5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B93E38AD-1D19-4DE3-9B82-EB0497A61F5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B93E38AD-1D19-4DE3-9B82-EB0497A61F5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
