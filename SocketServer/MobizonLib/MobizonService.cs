@@ -1,4 +1,5 @@
 ﻿using System.Net;
+using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
 
 namespace MobizonLib;
@@ -6,10 +7,16 @@ namespace MobizonLib;
 public class MobizonService
 {
     private string _apiKey;
-    private readonly HttpClient _httpClient;
 
-    public MobizonService(string apiKey)
+    public MobizonService()
     {
+        var config = new ConfigurationBuilder()
+            .AddJsonFile("application.settings.json", optional: false, reloadOnChange: true)
+            .Build();
+
+        // Варіант 1: Отримати конкретне значення
+        string apiKey = config["SmsService:ApiKey"];
+        //Console.WriteLine($"API Key: {apiKey}");
         _apiKey = apiKey;
     }
 

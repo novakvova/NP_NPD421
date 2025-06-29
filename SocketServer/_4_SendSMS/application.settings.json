@@ -1,0 +1,7 @@
+{
+    "SmsService": {
+        "ApiKey": "ua4edd40df68c99d80a06416fcc535ffdc3cd70d935e3722d80a668c8844a305babaea",
+        "Sender": "MyApp",
+        "DefaultRecipient": "380966207377"
+    }
+}

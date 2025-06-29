@@ -11,4 +11,10 @@
     <ProjectReference Include="..\MobizonLib\MobizonLib.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="application.settings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
