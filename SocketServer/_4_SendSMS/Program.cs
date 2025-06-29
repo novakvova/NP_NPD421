@@ -1,11 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using System.Web;
-using Microsoft.Extensions.Configuration;
+using MobizonLib;
 
 Console.InputEncoding = System.Text.Encoding.UTF8;
 Console.OutputEncoding = System.Text.Encoding.UTF8;
-
-
 
 int input = 0;
 do
@@ -23,7 +20,7 @@ do
         case 1:
             try
             {
-                var mobizonService = new MobizonLib.MobizonService();
+                var mobizonService = new MobizonService();
                 var balance = await mobizonService.getBalance();
                 Console.WriteLine($"Ваш баланс: {balance.Data.Balance} {balance.Data.Currency}");
             }
@@ -35,7 +32,7 @@ do
         case 2:
             try
             {
-                var mobizonService = new MobizonLib.MobizonService();
+                var mobizonService = new MobizonService();
                 Console.Write("Введіть номер телефону (формат: 380XXXXXXXXX): ");
                 string phone = Console.ReadLine();
                 Console.Write("Введіть текст повідомлення: ");
